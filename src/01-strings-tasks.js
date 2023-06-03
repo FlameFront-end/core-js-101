@@ -217,7 +217,6 @@ function getRectangleString(width, height) {
   return topLine + middleLine.repeat(height - 2) + bottomLine;
 }
 
-console.log(getRectangleString(6, 4));
 
 
 /**
