@@ -9,14 +9,14 @@
 /**
  * Returns the result of concatenation of two strings.
  *
- * @param {string} value1
- * @param {string} value2
  * @return {string}
  *
  * @example
  *   'aa', 'bb' => 'aabb'
  *   'aa',''    => 'aa'
  *   '',  'bb'  => 'bb'
+ * @param str1
+ * @param str2
  */
 function concatenateStrings(str1, str2) {
   return str1 + str2;
